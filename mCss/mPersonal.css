@@ -1,0 +1,58 @@
+.main .mainRight .mainRightTitle{
+	padding: 15px 0 10px 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.main .mainRightContainer div{
+	margin: 5px 0 30px 15px;
+	display: flex;
+    /*justify-content:center;*/
+    align-items:Center;
+}
+
+.main .mainRightContainer span{
+	color: red;
+}
+
+.main .mainRightContainer label{
+	display: inline-block;
+	width: 70px;
+  	font-size: 14px;
+  	text-align: right;
+}
+
+.main .mainRightContainer input{
+	margin-left: 10px;
+}
+
+.main .mainRightContainer .inputStyle{
+	width: 200px;
+	border-radius: 5px;
+}
+
+.main .mainRightContainer .buttonStyle{
+	border: 0;
+	width: 40px;
+	margin-left: 5px;
+}
+
+.main .mainRightContainer .iconPrompt{
+	font-size: 10px;
+	color: #BBBBBB;
+	width: 400px;
+	position: relative;
+	    top: 25px;
+    left: -40px;
+}
+
+.main .mainRightContainer .submitButton{
+	margin:20px 0 0 50px;
+	width: 60px;
+	height: 30px;
+	color: #FFFFFF;
+	background: #FC8D59;
+	border: 0;
+	border-radius: 6px;
+	cursor: pointer;
+}

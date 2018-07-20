@@ -1,0 +1,52 @@
+
+.main .mainRightContainer .mainRightTitle{
+	padding: 15px 0 40px 20px;
+}
+
+.main .mainRightTitle span{
+	font-size: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.mainRightContainer .list{
+	margin: 0 0 70px 30px;
+	width: 275px;
+}
+
+.mainRightContainer .list .star{
+	color: #FC8D59; 
+	font-size: 30px;
+	position: relative;
+	top: -320px;
+    right: 5px;
+}
+
+.mainRightContainer .listBottom{
+	display: flex;
+    /*justify-content:center;*/
+    align-items:Center;
+}
+
+.mainRightContainer .listBottom img{
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.mainRightContainer .listBottom .name{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+
+.mainRightContainer .listBottom p{
+	position: relative;
+    right: -140px;
+    top: 0;
+}
+
+.mainRightContainer .listBottom i{
+	font-size: 18px;
+	margin-left: 5px;
+}
+

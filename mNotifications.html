@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>消息通知</title>
+		<link rel="stylesheet" href="mCss/myself.css" />
+		<link rel="stylesheet" type="text/css" href="mCss/mNotifications.css"/>
+		<link rel="stylesheet" type="text/css" href="mCss/font-awesome.css"/>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+		<script>
+			
+				function onclickComment(e){
+					$(e).addClass("cur");
+					$(e).next().removeClass("cur")
+					$("#comment").css("display","block");
+					$("#fabulous").css("display","none");
+				}
+				
+				function onclickFabulous(e){
+					$(e).addClass("cur");
+					$(e).prev().removeClass("cur")
+					$("#comment").css("display","none");
+					$("#fabulous").css("display","block");
+				}
+			
+		</script>
+	</head>
+	<body>
+		
+		<div class="container">
+			<!--头部开始-->
+			<div class="header">
+				<div class="headerContainer">
+					<!--logo-->
+					<div class="logo floatLeft">
+						<img src="img/logo.png" height="50px"/>
+					</div>
+					<!--nav-->
+					<div class="nav floatLeft">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">社区</a></li>
+							<li><a href="#">日记</a></li>
+							<li><a href="#">发布</a></li>
+							<li class="cur">我的</li>
+						</ul>
+					</div>
+					<!--account-->
+					<div class="account floatRight">
+						<!--<div class="accountContainer">-->
+							<img src="img/头像.jpg" width="30px" height="30px"/>
+							<span>UserName</span>
+							<i class="fa fa-envelope-o" style="font-size: 20px; margin-left:10px;"></i>
+							<i class="infoNumber">17</i>
+						<!--</div>-->
+					</div>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			
+			
+			
+			<!--主体开始-->
+			
+			<div class="main">
+				<div class="mainLeft floatLeft">
+					<ul>
+						<li><a href="mPersonal.html">个人资料</a></li>
+						<li><a class="cur" href="#">消息通知</a></li>
+						<li><a href="mCollection.html">我的收藏</a></li>
+						<li><a href="mAdopt.html">关于领养</a></li>
+						<li><a href="mMyAndCat.html">关于我和喵星人</a></li>
+					</ul>
+				</div>
+				<div class="mainRight floatLeft">
+					<div class="mainRightContainer">
+						
+						<p class="mainRightTitle"><span onclick="onclickComment(this)" class="cur">收到的评论</span><span onclick="onclickFabulous(this)">收到的赞</span></p>
+						
+						<div id="comment" class="comment" >
+							<div>
+								<div class="commentList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="commentatorName">昵称</p>
+										<p class="commentContent">
+											设置文章头尾签名内容，生成图文时自动在相应位置插入内容，无须每篇文章都手动复制编辑。编辑完的图确立用户画像–我们的用户是谁？
+											2.明确需求目的–我们给用户提供什么？3.商讨产品价值–我们的产品是否给此需求带来了新的体验？.建立需求池–确立核心功能后，我们要有哪些支持功能，确立mvp版本？5.实现平台及技术可实现性6.商业模式挖掘
+											设置文章头尾签名内容，生成图文时自动在相应位置插入内容，无须每篇文章都手动复制编辑。编辑完的图确立用户画像–我们的用户是谁？
+											2.明确需求目的–我们给用户提供什么？3.商讨产品价值–我们的产品是否给此需求带来了新的体验？.建立需求池–确立核心功能后，我们要有哪些支持功能，确立mvp版本？5.实现平台及技术可实现性6.商业模式挖掘 
+										</p>
+									</div>
+									
+									<div class="commentListRight floatRight">
+										<div class="commentTime">2018年7月19日     11:35</div>
+										<div class="commentReply">
+											<a href="#">
+												<span> <i class="fa fa-commenting-o"></i> 回复 </span>
+											</a>
+											
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="commentList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									<div class="floatLeft">
+										<p class="commentatorName">昵称</p>
+										<p class="commentContent">
+											设置文章头尾签名内容，生成图文时自动在相应位置插入内容，无须每篇文章都手动复制编辑。编辑完的图确立用户画像–我们的用户是谁？
+											2.明确需求目的–我们给用户提供什么？3.商讨产品价值–我们的产品是否给此需求带来了新的体验？.建立需求池–确立核心功能后，我们要有哪些支持功能，确立mvp版本？5.实现平台及技术可实现性6.商业模式挖掘 
+										</p>
+									</div>
+									<div class="commentListRight floatRight">
+										<div class="commentTime">2018年7月19日     11:35</div>
+										<div class="commentReply">
+											<span> <i class="fa fa-commenting-o"></i> 回复 </span>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="commentList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="commentatorName">昵称</p>
+										<p class="commentContent">
+											设置文章头尾签名内容，生成图文时自动在相应位置插入内容，无须每篇文章都手动复制编辑。编辑完的图确立用户画像–我们的用户是谁？
+											2.明确需求目的–我们给用户提供什么？3.商讨产品价值–我们的产品是否给此需求带来了新的体验？.建立需求池–确立核心功能后，我们要有哪些支持功能，确立mvp版本？5.实现平台及技术可实现性6.商业模式挖掘
+											设置文章头尾签名内容，生成图文时自动在相应位置插入内容，无须每篇文章都手动复制编辑。编辑完的图确立用户画像–我们的用户是谁？
+											2.明确需求目的–我们给用户提供什么？3.商讨产品价值–我们的产品是否给此需求带来了新的体验？.建立需求池–确立核心功能后，我们要有哪些支持功能，确立mvp版本？5.实现平台及技术可实现性6.商业模式挖掘 
+										</p>
+									</div>
+									
+									<div class="commentListRight floatRight">
+										<div class="commentTime">2018年7月19日     11:35</div>
+										<div class="commentReply">
+											<a href="#">
+												<span> <i class="fa fa-commenting-o"></i> 回复 </span>
+											</a>
+											
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+						
+						<div id="fabulous" class="fabulous" style="display: none;">
+							<div>
+								
+								<div class="fabulousList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="fabulousName">昵称</p>
+										<p class="fabulousContent">赞了我的日记</p>
+									</div>
+									
+									<div class="fabulousListRight floatRight">
+										<div class="fabulousTime">2018年7月19日     11:35</div>
+									</div>
+								</div>
+								
+								
+								<div class="fabulousList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="fabulousName">昵称</p>
+										<p class="fabulousContent">赞了我的日记</p>
+									</div>
+									
+									<div class="fabulousListRight floatRight">
+										<div class="fabulousTime">2018年7月19日     11:35</div>
+									</div>
+								</div>
+								
+								
+								<div class="fabulousList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="fabulousName">昵称</p>
+										<p class="fabulousContent">赞了我的日记</p>
+									</div>
+									
+									<div class="fabulousListRight floatRight">
+										<div class="fabulousTime">2018年7月19日     11:35</div>
+									</div>
+								</div>
+								
+								
+								<div class="fabulousList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="fabulousName">昵称</p>
+										<p class="fabulousContent">赞了我的日记</p>
+									</div>
+									
+									<div class="fabulousListRight floatRight">
+										<div class="fabulousTime">2018年7月19日     11:35</div>
+									</div>
+								</div>
+								
+								
+								<div class="fabulousList">
+									<img src="img/头像.jpg" class="floatLeft" width="50px" height="50px"/>
+									
+									<div class="floatLeft">
+										<p class="fabulousName">昵称</p>
+										<p class="fabulousContent">赞了我的日记</p>
+									</div>
+									
+									<div class="fabulousListRight floatRight">
+										<div class="fabulousTime">2018年7月19日     11:35</div>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div style="clear: both;"></div>
+			
+			<!--尾部开始-->
+			<div class="footer">
+				<div class="footerContainer">
+					<div class="footerLogo floatLeft">
+						 <img src="img/test.png" width="150px"/>
+					</div>
+					<div class="footerMiddle floatLeft">
+						<p>联系   CONTANT</p>
+						<p>E-mall：xxxxxxx@xx.com</p>
+						<p>QQ:xxxxxxxxx</p>
+						<p class="copyright">Copyright © 2018-2018 公益猫 版权所有.</p>
+					</div>
+					<div class="wxORCode floatLeft">
+						<p>微信公众号</p>
+						<img src="img/test.png" width="130px"/>
+						<p style="font-size: 12px;">扫一扫，我们一起来养猫</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

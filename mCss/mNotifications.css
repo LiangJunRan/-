@@ -1,0 +1,77 @@
+
+.main .mainRightContainer .mainRightTitle{
+	padding: 15px 0 10px 20px;
+}
+
+.main .mainRightTitle span{
+	font-size: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.main .mainRightTitle .cur{
+	color: #D73027;
+}
+
+.mainRightContainer .comment,
+.mainRightContainer .fabulous{
+	margin: 25px 0 10px 20px;
+}
+
+.comment .commentList,
+.fabulous .fabulousList{
+	border: 1px solid #bbb;
+	border-radius: 6px;
+	width: 910px;
+	height: 100px;
+	margin: 0 0 30px 0;
+}
+
+.comment .commentList img,
+.fabulous .fabulousList img{
+	border-radius: 50%;
+	margin: 5px 10px 0 5px;
+}
+
+.comment .commentList .commentatorName,
+.fabulous .fabulousList .fabulousName{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+.comment .commentList .commentContent,
+.fabulous .fabulousList .fabulousContent{
+	width: 650px;
+	font-size: 12px;
+	text-overflow:ellipsis;
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 3; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+
+.commentList .commentListRight .commentTime,
+.fabulous .fabulousListRight .fabulousTime{
+	text-align: right;
+	font-size:12px ;
+	padding: 3px 8px 0 0;
+}
+
+.commentList .commentReply{
+	margin: 55px 0 0 100px;
+
+}
+
+.commentList .commentReply span,
+.commentList .commentReply i{
+	color: #D73027;
+}
+
+
+.fabulous .fabulousList{
+	height: 80px;
+}
