@@ -48,10 +48,23 @@
 	text-overflow:ellipsis;
 	word-break: break-all;
     text-overflow: ellipsis;
-    display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    display:-moz-box;		/** 将对象作为伸缩盒子模型显示 **/
+    display: -ms-flexbox;
+    display: -webkit-box;
+    
     -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+   	-moz-box-orient: vertical;
+   	
     -webkit-line-clamp: 3; /** 显示的行数 **/
+   
+   
+   
+   
+   
+   
     overflow: hidden;  /** 隐藏超出的内容 **/
+    position:relative;
+
 }
 
 .commentList .commentListRight .commentTime,
